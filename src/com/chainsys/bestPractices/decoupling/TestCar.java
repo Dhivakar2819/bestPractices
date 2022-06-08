@@ -32,7 +32,7 @@ public class TestCar {
 			wWheels[3]=new WoodenWheel();
 			wWheels[3].location="back right";
 			
-			Car secondcar=new Car(pe,sWheels);
+			Car secondcar=new Car(de,sWheels);
 			secondcar.startCar();
 			
 			WaterEngine we=new WaterEngine();
